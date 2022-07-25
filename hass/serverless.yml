@@ -1,0 +1,19 @@
+service: homed-hass
+frameworkVersion: '2'
+
+configValidationMode: error
+
+provider:
+  name: aws
+  runtime: python3.8
+  lambdaHashingVersion: 20201221
+  stage: ${opt:stage, 'dev'}
+  region: eu-west-1
+  environment:
+    ENV: ${self:provider.stage}
+
+functions:
+  alexa:
+    handler: handler.hello
+    events:
+      - alexaSmartHome: amzn1.ask.skill.36f5b76a-ca99-4049-8100-61b0e5ffc24a

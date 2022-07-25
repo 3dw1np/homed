@@ -1,0 +1,22 @@
+
+# logs
+logs
+*.log
+npm-debug.log
+
+# dotenv
+.envrc
+
+# pyenv
+.python-version
+
+# virtualenv
+.venv
+venv/
+ENV/
+
+# node
+node_modules
+
+# serverless
+.serverless
