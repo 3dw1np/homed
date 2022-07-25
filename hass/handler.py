@@ -1,8 +1,7 @@
-import json
+import requests
+
 
 
 def hello(event, context):
-    return {
-        "message": "Go Serverless v1.0! Your function executed successfully!",
-        "event": event
-    }
+    r = requests.get("https://news.ycombinator.com/news")
+    return {"content": r.text}

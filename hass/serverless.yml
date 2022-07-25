@@ -12,8 +12,16 @@ provider:
   environment:
     ENV: ${self:provider.stage}
 
+custom:
+  pythonRequirements:
+    dockerizePip: lambci/lambda:build-python3.8
+    # useStaticCache: false
+
 functions:
   alexa:
     handler: handler.hello
     events:
       - alexaSmartHome: amzn1.ask.skill.36f5b76a-ca99-4049-8100-61b0e5ffc24a
+
+plugins:
+  - serverless-python-requirements
