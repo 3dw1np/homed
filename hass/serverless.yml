@@ -1,5 +1,5 @@
 service: homed-hass
-frameworkVersion: '2'
+frameworkVersion: '3'
 
 configValidationMode: error
 
@@ -19,7 +19,7 @@ custom:
 
 functions:
   alexa:
-    handler: handler.hello
+    handler: handler.event_handler
     events:
       - alexaSmartHome: amzn1.ask.skill.36f5b76a-ca99-4049-8100-61b0e5ffc24a
 
