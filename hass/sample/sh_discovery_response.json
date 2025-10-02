@@ -1,0 +1,3872 @@
+{
+    "event": {
+        "header": {
+            "namespace": "Alexa.Discovery",
+            "name": "Discover.Response",
+            "messageId": "fabcc6f8-c59e-4b48-a317-cc2be017acdf",
+            "payloadVersion": "3"
+        },
+        "payload": {
+            "endpoints": [
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#plafond_cuisine",
+                    "friendlyName": "Plafond Cuisine",
+                    "description": "switch.plafond_cuisine via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.plafond_cuisine"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#plafond_salon",
+                    "friendlyName": "Plafond Salon",
+                    "description": "switch.plafond_salon via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.plafond_salon"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#volets_salon",
+                    "friendlyName": "Volets Salon",
+                    "description": "switch.volets_salon via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.volets_salon"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d0002ab9738",
+                    "friendlyName": "Plafond Chambre parents",
+                    "description": "switch.wall_switch_158d0002ab9738 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d0002ab9738"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d00029b30d1",
+                    "friendlyName": "Ampoules Escaliers",
+                    "description": "switch.wall_switch_158d00029b30d1 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d00029b30d1"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d0002ab93c0",
+                    "friendlyName": "Plafond Salle de douche",
+                    "description": "switch.wall_switch_158d0002ab93c0 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d0002ab93c0"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_left_158d0002a1898b",
+                    "friendlyName": "Cabane Chambre Enfants",
+                    "description": "switch.wall_switch_left_158d0002a1898b via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_left_158d0002a1898b"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_right_158d0002a1898b",
+                    "friendlyName": "Plafond Chambre Enfants",
+                    "description": "switch.wall_switch_right_158d0002a1898b via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_right_158d0002a1898b"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#shelly1_349454738a90",
+                    "friendlyName": "Switch Climatiseur Chambre Enfants",
+                    "description": "switch.shelly1_349454738a90 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.shelly1_349454738a90"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#lightstrip_chambre",
+                    "friendlyName": "Lightstrip chambre",
+                    "description": "light.lightstrip_chambre via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.lightstrip_chambre"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#lampe_chambre",
+                    "friendlyName": "Lampe chambre",
+                    "description": "light.lampe_chambre via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.lampe_chambre"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#lightstrip_escalier",
+                    "friendlyName": "Lightstrip escalier",
+                    "description": "light.lightstrip_escalier via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.lightstrip_escalier"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#hue_go_1",
+                    "friendlyName": "Hue go 1",
+                    "description": "light.hue_go_1 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.hue_go_1"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#hue_go_2",
+                    "friendlyName": "Hue go 2",
+                    "description": "light.hue_go_2 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.hue_go_2"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#lightstrip_chambre_enfants",
+                    "friendlyName": "Lightstrip chambre enfants",
+                    "description": "light.lightstrip_chambre_enfants via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.lightstrip_chambre_enfants"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#lampe_chambre_enfants",
+                    "friendlyName": "Lampe chambre enfants",
+                    "description": "light.lampe_chambre_enfants via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.lampe_chambre_enfants"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#chambre_enfants",
+                    "friendlyName": "Chambre Enfants",
+                    "description": "light.chambre_enfants via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.chambre_enfants"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#bureau",
+                    "friendlyName": "Lampes du bureau",
+                    "description": "light.bureau via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.bureau"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#salon",
+                    "friendlyName": "Salon",
+                    "description": "light.salon via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.salon"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#escalier",
+                    "friendlyName": "Escaliers",
+                    "description": "light.escalier via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.escalier"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#chambre_parents",
+                    "friendlyName": "Chambre Parents",
+                    "description": "light.chambre_parents via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.chambre_parents"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "color"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ColorTemperatureController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "colorTemperatureInKelvin"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#hue_motion_sensor_1_motion",
+                    "friendlyName": "Hue motion sensor 1 Motion",
+                    "description": "switch.hue_motion_sensor_1_motion via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.hue_motion_sensor_1_motion"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#hue_motion_sensor_1_illuminance",
+                    "friendlyName": "Hue motion sensor 1 Illuminance",
+                    "description": "switch.hue_motion_sensor_1_illuminance via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.hue_motion_sensor_1_illuminance"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#flush_shutter",
+                    "friendlyName": "Volet Chambre Enfants",
+                    "description": "switch.flush_shutter via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.flush_shutter"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "EXTERIOR_BLIND"
+                    ],
+                    "cookie": {},
+                    "endpointId": "cover#volet_chambre_parents",
+                    "friendlyName": "Volet Chambre Parents",
+                    "description": "cover.volet_chambre_parents via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "cover",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-cover.volet_chambre_parents"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.RangeController",
+                            "version": "3",
+                            "instance": "cover.position",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "rangeValue"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "nonControllable": false
+                            },
+                            "capabilityResources": {
+                                "friendlyNames": [
+                                    {
+                                        "@type": "text",
+                                        "value": {
+                                            "text": "Position",
+                                            "locale": "en-US"
+                                        }
+                                    },
+                                    {
+                                        "@type": "asset",
+                                        "value": {
+                                            "assetId": "Alexa.Setting.Opening"
+                                        }
+                                    }
+                                ]
+                            },
+                            "configuration": {
+                                "supportedRange": {
+                                    "minimumValue": 0,
+                                    "maximumValue": 100,
+                                    "precision": 1
+                                },
+                                "unitOfMeasure": "Alexa.Unit.Percent"
+                            },
+                            "semantics": {
+                                "actionMappings": [
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Lower",
+                                            "Alexa.Actions.Close"
+                                        ],
+                                        "directive": {
+                                            "name": "SetRangeValue",
+                                            "payload": {
+                                                "rangeValue": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Raise",
+                                            "Alexa.Actions.Open"
+                                        ],
+                                        "directive": {
+                                            "name": "SetRangeValue",
+                                            "payload": {
+                                                "rangeValue": 100
+                                            }
+                                        }
+                                    }
+                                ],
+                                "stateMappings": [
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Closed"
+                                        ],
+                                        "value": 0
+                                    },
+                                    {
+                                        "@type": "StatesToRange",
+                                        "states": [
+                                            "Alexa.States.Open"
+                                        ],
+                                        "range": {
+                                            "minimumValue": 1,
+                                            "maximumValue": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "EXTERIOR_BLIND"
+                    ],
+                    "cookie": {},
+                    "endpointId": "cover#flush_shutter",
+                    "friendlyName": "Volet Chambre Enfants",
+                    "description": "cover.flush_shutter via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "cover",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-cover.flush_shutter"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.RangeController",
+                            "version": "3",
+                            "instance": "cover.position",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "rangeValue"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "nonControllable": false
+                            },
+                            "capabilityResources": {
+                                "friendlyNames": [
+                                    {
+                                        "@type": "text",
+                                        "value": {
+                                            "text": "Position",
+                                            "locale": "en-US"
+                                        }
+                                    },
+                                    {
+                                        "@type": "asset",
+                                        "value": {
+                                            "assetId": "Alexa.Setting.Opening"
+                                        }
+                                    }
+                                ]
+                            },
+                            "configuration": {
+                                "supportedRange": {
+                                    "minimumValue": 0,
+                                    "maximumValue": 100,
+                                    "precision": 1
+                                },
+                                "unitOfMeasure": "Alexa.Unit.Percent"
+                            },
+                            "semantics": {
+                                "actionMappings": [
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Lower",
+                                            "Alexa.Actions.Close"
+                                        ],
+                                        "directive": {
+                                            "name": "SetRangeValue",
+                                            "payload": {
+                                                "rangeValue": 0
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Raise",
+                                            "Alexa.Actions.Open"
+                                        ],
+                                        "directive": {
+                                            "name": "SetRangeValue",
+                                            "payload": {
+                                                "rangeValue": 100
+                                            }
+                                        }
+                                    }
+                                ],
+                                "stateMappings": [
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Closed"
+                                        ],
+                                        "value": 0
+                                    },
+                                    {
+                                        "@type": "StatesToRange",
+                                        "states": [
+                                            "Alexa.States.Open"
+                                        ],
+                                        "range": {
+                                            "minimumValue": 1,
+                                            "maximumValue": 100
+                                        }
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#lampe_salon",
+                    "friendlyName": "Lampe Salon",
+                    "description": "switch.lampe_salon via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.lampe_salon"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#souffleur_salle_de_bain",
+                    "friendlyName": "Souffleur Salle de bain",
+                    "description": "switch.souffleur_salle_de_bain via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.souffleur_salle_de_bain"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#aquarium",
+                    "friendlyName": "Aquarium",
+                    "description": "switch.aquarium via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.aquarium"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#ventilateur",
+                    "friendlyName": "Ventilateur",
+                    "description": "switch.ventilateur via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.ventilateur"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#climatiseur",
+                    "friendlyName": "Climatiseur",
+                    "description": "switch.climatiseur via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.climatiseur"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d0002abaf85",
+                    "friendlyName": "Plafond Toilettes",
+                    "description": "switch.wall_switch_158d0002abaf85 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d0002abaf85"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d00029b947b",
+                    "friendlyName": "Plafond Salle de bain",
+                    "description": "switch.wall_switch_158d00029b947b via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d00029b947b"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d00029baa82",
+                    "friendlyName": "Plafond Bureau",
+                    "description": "switch.wall_switch_158d00029baa82 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d00029baa82"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_158d0002ab9822",
+                    "friendlyName": "Plafond Chambre Enfants",
+                    "description": "switch.wall_switch_158d0002ab9822 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_158d0002ab9822"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#wall_switch_left_158d0002a18d31",
+                    "friendlyName": "Terrasse Spot",
+                    "description": "switch.wall_switch_left_158d0002a18d31 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.wall_switch_left_158d0002a18d31"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#lampe_tortue",
+                    "friendlyName": "Lampe tortue",
+                    "description": "switch.lampe_tortue via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.lampe_tortue"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#yeelight_ceila_0x15915316",
+                    "friendlyName": "Plafonnier Chambre Enfants",
+                    "description": "light.yeelight_ceila_0x15915316 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.yeelight_ceila_0x15915316"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#flush_shutter_2",
+                    "friendlyName": "Petit Volet Chambre Enfants",
+                    "description": "switch.flush_shutter_2 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.flush_shutter_2"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "EXTERIOR_BLIND"
+                    ],
+                    "cookie": {},
+                    "endpointId": "cover#flush_shutter_2",
+                    "friendlyName": "Petit Volet Chambre Enfants",
+                    "description": "cover.flush_shutter_2 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "cover",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-cover.flush_shutter_2"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ModeController",
+                            "version": "3",
+                            "instance": "cover.position",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "mode"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "nonControllable": false
+                            },
+                            "capabilityResources": {
+                                "friendlyNames": [
+                                    {
+                                        "@type": "text",
+                                        "value": {
+                                            "text": "Position",
+                                            "locale": "en-US"
+                                        }
+                                    },
+                                    {
+                                        "@type": "asset",
+                                        "value": {
+                                            "assetId": "Alexa.Setting.Opening"
+                                        }
+                                    }
+                                ]
+                            },
+                            "configuration": {
+                                "ordered": false,
+                                "supportedModes": [
+                                    {
+                                        "value": "position.open",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Open"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.closed",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Close"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.custom",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "text",
+                                                    "value": {
+                                                        "text": "Custom",
+                                                        "locale": "en-US"
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Setting.Preset"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "semantics": {
+                                "actionMappings": [
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Lower",
+                                            "Alexa.Actions.Close"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.closed"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Raise",
+                                            "Alexa.Actions.Open"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.open"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "stateMappings": [
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Closed"
+                                        ],
+                                        "value": "position.closed"
+                                    },
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Open"
+                                        ],
+                                        "value": "position.open"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#flush_shutter_3",
+                    "friendlyName": "flush shutter 3",
+                    "description": "switch.flush_shutter_3 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.flush_shutter_3"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "EXTERIOR_BLIND"
+                    ],
+                    "cookie": {},
+                    "endpointId": "cover#flush_shutter_3",
+                    "friendlyName": "flush shutter 3",
+                    "description": "cover.flush_shutter_3 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "cover",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-cover.flush_shutter_3"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ModeController",
+                            "version": "3",
+                            "instance": "cover.position",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "mode"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "nonControllable": false
+                            },
+                            "capabilityResources": {
+                                "friendlyNames": [
+                                    {
+                                        "@type": "text",
+                                        "value": {
+                                            "text": "Position",
+                                            "locale": "en-US"
+                                        }
+                                    },
+                                    {
+                                        "@type": "asset",
+                                        "value": {
+                                            "assetId": "Alexa.Setting.Opening"
+                                        }
+                                    }
+                                ]
+                            },
+                            "configuration": {
+                                "ordered": false,
+                                "supportedModes": [
+                                    {
+                                        "value": "position.open",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Open"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.closed",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Close"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.custom",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "text",
+                                                    "value": {
+                                                        "text": "Custom",
+                                                        "locale": "en-US"
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Setting.Preset"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "semantics": {
+                                "actionMappings": [
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Lower",
+                                            "Alexa.Actions.Close"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.closed"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Raise",
+                                            "Alexa.Actions.Open"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.open"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "stateMappings": [
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Closed"
+                                        ],
+                                        "value": "position.closed"
+                                    },
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Open"
+                                        ],
+                                        "value": "position.open"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "LIGHT"
+                    ],
+                    "cookie": {},
+                    "endpointId": "light#shellydimmer2_4417931ae892",
+                    "friendlyName": "Plafond Salon LED",
+                    "description": "light.shellydimmer2_4417931ae892 via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "light",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-light.shellydimmer2_4417931ae892"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.BrightnessController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "brightness"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "INTERIOR_BLIND"
+                    ],
+                    "cookie": {},
+                    "endpointId": "cover#volet_bureau_rideau",
+                    "friendlyName": "Volet Bureau Rideau",
+                    "description": "cover.volet_bureau_rideau via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "cover",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-cover.volet_bureau_rideau"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ModeController",
+                            "version": "3",
+                            "instance": "cover.position",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "mode"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "nonControllable": false
+                            },
+                            "capabilityResources": {
+                                "friendlyNames": [
+                                    {
+                                        "@type": "text",
+                                        "value": {
+                                            "text": "Position",
+                                            "locale": "en-US"
+                                        }
+                                    },
+                                    {
+                                        "@type": "asset",
+                                        "value": {
+                                            "assetId": "Alexa.Setting.Opening"
+                                        }
+                                    }
+                                ]
+                            },
+                            "configuration": {
+                                "ordered": false,
+                                "supportedModes": [
+                                    {
+                                        "value": "position.open",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Open"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.closed",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Close"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.custom",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "text",
+                                                    "value": {
+                                                        "text": "Custom",
+                                                        "locale": "en-US"
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Setting.Preset"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "semantics": {
+                                "actionMappings": [
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Lower",
+                                            "Alexa.Actions.Close"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.closed"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Raise",
+                                            "Alexa.Actions.Open"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.open"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "stateMappings": [
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Closed"
+                                        ],
+                                        "value": "position.closed"
+                                    },
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Open"
+                                        ],
+                                        "value": "position.open"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "INTERIOR_BLIND"
+                    ],
+                    "cookie": {},
+                    "endpointId": "cover#volet_salle_de_sport_rideau",
+                    "friendlyName": "Volet Salle de sport Rideau",
+                    "description": "cover.volet_salle_de_sport_rideau via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "cover",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-cover.volet_salle_de_sport_rideau"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ModeController",
+                            "version": "3",
+                            "instance": "cover.position",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "mode"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true,
+                                "nonControllable": false
+                            },
+                            "capabilityResources": {
+                                "friendlyNames": [
+                                    {
+                                        "@type": "text",
+                                        "value": {
+                                            "text": "Position",
+                                            "locale": "en-US"
+                                        }
+                                    },
+                                    {
+                                        "@type": "asset",
+                                        "value": {
+                                            "assetId": "Alexa.Setting.Opening"
+                                        }
+                                    }
+                                ]
+                            },
+                            "configuration": {
+                                "ordered": false,
+                                "supportedModes": [
+                                    {
+                                        "value": "position.open",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Open"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.closed",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Value.Close"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    },
+                                    {
+                                        "value": "position.custom",
+                                        "modeResources": {
+                                            "friendlyNames": [
+                                                {
+                                                    "@type": "text",
+                                                    "value": {
+                                                        "text": "Custom",
+                                                        "locale": "en-US"
+                                                    }
+                                                },
+                                                {
+                                                    "@type": "asset",
+                                                    "value": {
+                                                        "assetId": "Alexa.Setting.Preset"
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    }
+                                ]
+                            },
+                            "semantics": {
+                                "actionMappings": [
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Lower",
+                                            "Alexa.Actions.Close"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.closed"
+                                            }
+                                        }
+                                    },
+                                    {
+                                        "@type": "ActionsToDirective",
+                                        "actions": [
+                                            "Alexa.Actions.Raise",
+                                            "Alexa.Actions.Open"
+                                        ],
+                                        "directive": {
+                                            "name": "SetMode",
+                                            "payload": {
+                                                "mode": "position.open"
+                                            }
+                                        }
+                                    }
+                                ],
+                                "stateMappings": [
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Closed"
+                                        ],
+                                        "value": "position.closed"
+                                    },
+                                    {
+                                        "@type": "StatesToValue",
+                                        "states": [
+                                            "Alexa.States.Open"
+                                        ],
+                                        "value": "position.open"
+                                    }
+                                ]
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                },
+                {
+                    "displayCategories": [
+                        "SWITCH"
+                    ],
+                    "cookie": {},
+                    "endpointId": "switch#cubetouch_ii_switch",
+                    "friendlyName": "CUBETOUCH II Switch",
+                    "description": "switch.cubetouch_ii_switch via Home Assistant",
+                    "manufacturerName": "Home Assistant",
+                    "additionalAttributes": {
+                        "manufacturer": "Home Assistant",
+                        "model": "switch",
+                        "softwareVersion": "2023.10.5",
+                        "customIdentifier": "-switch.cubetouch_ii_switch"
+                    },
+                    "capabilities": [
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.PowerController",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "powerState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.ContactSensor",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "detectionState"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa.EndpointHealth",
+                            "version": "3",
+                            "properties": {
+                                "supported": [
+                                    {
+                                        "name": "connectivity"
+                                    }
+                                ],
+                                "proactivelyReported": true,
+                                "retrievable": true
+                            }
+                        },
+                        {
+                            "type": "AlexaInterface",
+                            "interface": "Alexa",
+                            "version": "3"
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
