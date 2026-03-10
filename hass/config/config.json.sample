@@ -1,7 +1,0 @@
-{
-  "url": "http://localhost:8123/api",
-  "bearer_token": "",
-  "debug": false,
-  "ssl_verify": true,
-  "ssl_client": []
-}

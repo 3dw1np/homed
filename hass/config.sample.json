@@ -1,0 +1,7 @@
+{
+  "url": "https://<your-home-assistant-host>/api",
+  "bearer_token": "<your-long-lived-access-token>",
+  "debug": false,
+  "ssl_verify": true,
+  "ssl_client": []
+}
